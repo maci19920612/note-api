@@ -18,7 +18,7 @@ import { NoteService } from './service/note.service';
   imports: [
     TypeOrmModule.forRoot({
       type: "sqlite",
-      database: "database.sqlite",
+      database: "db/database.sqlite",
       entities: [
         UserEntity,
         UserTokenEntity,
