@@ -20,7 +20,7 @@ export class CommentService {
                     id: noteId
                 }
             },
-            relations: ["note"]
+            relations: ["note", "user"]
         });
     }
 
